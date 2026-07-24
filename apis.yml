@@ -1,8 +1,14 @@
 aid: billiontoone
 name: BillionToOne
-description: BillionToOne is a company surfaced as a portfolio company of 500-global, norwest-venture-partners,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: BillionToOne is a molecular diagnostics company using proprietary single-molecule
+  Quantitative Counting Template (QCT) technology to detect disease at the DNA level from
+  cell-free DNA. Its Unity prenatal screening suite (Unity Complete, Unity Confirm, and Unity
+  fetal antigen tests) delivers non-invasive prenatal testing from maternal blood at nine weeks,
+  and its Northstar oncology line (Northstar Select and Northstar Response) provides liquid-biopsy
+  therapy selection and real-time treatment-response monitoring. BillionToOne integrates with
+  electronic medical records through a collaboration with Epic and delivers results through its
+  provider and patient portals. It was added to the API Evangelist network as a portfolio company
+  of 500 Global, Norwest Venture Partners, and Y Combinator.
 url: https://raw.githubusercontent.com/api-evangelist/billiontoone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +18,30 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/6880c9300eb95bb084b75b2e/68f9c805125d5bd39b931a16_bto_logo_new.svg
 tags:
 - Company
+- Molecular Diagnostics
+- Healthcare
+- Genomics
+- Prenatal Testing
+- Oncology
+- Liquid Biopsy
+- Diagnostics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/billiontoone-trust-center.yml
+- type: Compliance
+  url: https://trust.billiontoone.com/
+- type: DomainSecurity
+  url: security/billiontoone-domain-security.yml
 - type: Website
   url: https://billiontoone.com
+- type: Support
+  url: https://billiontoone.com/contact
+- type: Blog
+  url: https://www.billiontoone.com/news-media
+- type: PrivacyPolicy
+  url: https://billiontoone.com/privacy-policy
+- type: TermsOfService
+  url: https://billiontoone.com/terms-of-use
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
